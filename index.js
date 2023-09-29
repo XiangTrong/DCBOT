@@ -6,7 +6,7 @@ const client = new Client({
   intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES],
 });
 
-const TOKEN = 'MTExOTk0OTA3NDAwNzg2MzMyNg.GlJ8bU.nvB2FzPvVhWtqH_4CI7_MZGlLAWprSsbvzw8xk';
+const TOKEN = '';
 const PREFIX = '.';
 
 client.once('ready', () => {
