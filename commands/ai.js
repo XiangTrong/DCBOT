@@ -19,7 +19,7 @@ module.exports = {
     const processingMessage = await message.channel.send({ embeds: [processingEmbed] });
 
     try {
-      const response = await axios.get(`https://api.kenliejugarap.com/gptgo/?text=${content}`);
+      const response = await axios.get(`${content}`);
       const respond = response.data.response;
 
       if (response.data.error) {
